@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-cvnj
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/rhn-support-marrober-tenant/devfile-sample-1/devfile-sample-cvnj@sha256:3f95444df653be77cfdf251bf00b3f58bde9af608d4cf7df739355b0eccd93e2
         name: my-nodejs
         ports:
         - containerPort: 3001
